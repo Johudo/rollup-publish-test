@@ -9,7 +9,7 @@
         "dist"
     ],
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com/Johudo"
+        "@Johudo:registry": "https://npm.pkg.github.com"
     },
     "scripts": {
         "build": "rimraf dist && rollup -c",
